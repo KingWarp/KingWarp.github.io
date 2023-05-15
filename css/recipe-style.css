@@ -153,6 +153,68 @@ footer p {
     clear: both;
 }
 
+@media (max-width: 810px) {
+    html {
+        line-height: 60%;
+        font-size: 1rem;
+    }
+
+    nav a {
+        padding: 8px;
+        letter-spacing:normal;
+        font-size: 0.7rem;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 0.6rem;
+    }
+
+    img {
+        float: none;
+        max-width: 50%;
+        margin-left: 10%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .intstructions,
+    .nutrition {
+        width: 40%;
+        float: none;
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+        
+    }
+
+    blockquote {
+        max-width: 75%;
+        max-height: 60%;
+    }
+
+
 @media (max-width: 360px) {
 
     html {
@@ -215,64 +277,5 @@ footer p {
     }
 }
 
-@media (max-width: 810px) {
-    html {
-        line-height: 60%;
-    }
-
-    nav a {
-        padding: 8px;
-        letter-spacing:normal;
-        font-size: 0.7rem;
-    }
-
-    nav ul {
-        padding-left: 10px;
-    }
-
-    main {
-        width: 70%;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-        text-shadow: none;
-    }
-
-    h2 {
-        font-size: 0.6rem;
-    }
-
-    img {
-        float: none;
-        max-width: 50%;
-        margin-left: 10%;
-    }
-
-    .rate {
-        font-size: 1rem;
-    }
-
-    .details,
-    .ingredients,
-    .intstructions,
-    .nutrition {
-        width: 40%;
-        float: none;
-    }
-    
-    .col1,
-    .col2,
-    .col3 {
-        display: block;
-        float: none;
-        width: 90%;
-        
-    }
-
-    blockquote {
-        max-width: 75%;
-        max-height: 60%;
-    }
 
 }
